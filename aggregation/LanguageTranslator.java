@@ -24,7 +24,7 @@ public class LanguageTranslator {
         return from.getText(number);
     }
 
-    public String translateReverse(String numberText){
+    public String translateReverse(String numberText) {
         var number = to.getNumber(numberText);
         return translateReverse(number);
     }
