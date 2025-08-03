@@ -37,12 +37,12 @@ The context of the project is a **Language Translator** application. It simulate
 
 ## How to Run
 
-1. Open the project in **IntelliJ IDEA**
-2. Navigate to the `TranslatorApp` class
-3. Run the `Main()` method using the green play button or use the terminal:
-```bash
-./mvnw clean compile exec:java
-```
+1. Open the project in your IDE (IntelliJ IDEA)
+2. Navigate to the `Main` class
+3. Locate the `main` method and click the green play button to **Run 'Main'** or use the terminal:
+    ```bash
+   mvn clean compile exec:java
+   ```
 
 ## Credits
 > "This assignment was developed as part of the Backend Java module in the NOVI Software Development program. All instructions, logic, and structure are part of the official coursework."
